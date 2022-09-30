@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <div className={s.container}>
-        <a href="http://google.com">
+        <a href={isLucky ? "https://www.ilmakiage.com/" : "http://google.com"}>
           <img
             className={s.image}
             src={
