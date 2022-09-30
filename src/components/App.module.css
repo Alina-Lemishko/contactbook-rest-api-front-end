@@ -1,0 +1,84 @@
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20vh;
+}
+
+.image {
+  margin: 0 auto;
+}
+
+.form {
+  position: relative;
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.input {
+  height: 34px;
+  font-size: 18px;
+  padding-left: 35px;
+  padding-right: 75px;
+  width: 490px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.searchButton {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+
+.buttonsList {
+  display: flex;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.buttonItem {
+  margin-right: 5px;
+}
+
+.listSearch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.listSearchItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.listSearchButton {
+  height: 40px;
+  min-width: 150px;
+  background-color: rgba(245, 242, 242, 0.5);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.languageList {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.languageListItem:not(:last-child) {
+  margin-right: 15px;
+}
+
+.languageListItemLink {
+  color: #1a0dab;
+}
